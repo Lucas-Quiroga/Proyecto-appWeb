@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: red;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-image: url(img/foto-header.jpg);
+    background-size: 100%;
+}
+
+header{
+    padding: 50px;
+}
+
+.nav-bar{
+    display: flex;
+    
+}
+
+ul a{
+    text-decoration: none;
+    /* background-color: blue; */
+    padding: 30px;
+    margin: 30px;
+    position: relative;
+    left: 90%;
+    top: 30px;
+}
+
+.h1{
+    color:aqua;
+    text-align: center;
+    position: absolute;
+}
